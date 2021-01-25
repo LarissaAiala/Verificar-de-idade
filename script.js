@@ -16,6 +16,14 @@ function verificar() {
             genero = 'Homem'  
             if (idade >= 0 && idade < 10) {
                 // crianca
+                /*
+                    pesquise por uma criança no google imagens, pegue o endereço da imagem,
+                    o qual deve terminar com a extensão do arquivo, por exemplo ".png", e
+                    substitua 'foto-bimbo.png' por essa imagem, depois vá em sua pagina,
+                    recarregue ela e coloque que nasceu em 2015(no caso seria uma crinaça de 6 anos +-)
+                    deixa no masculino e clique em calcular, verá que a imagem sera carregada, faltando 
+                    agora apenas deixar ela do tamnho correto.
+                */
                 img.setAttribute('src', 'foto-bimbo.png')
             } else if (idade >= 10 && idade < 21) {
                 //jovem
