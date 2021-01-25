@@ -16,13 +16,13 @@ function verificar() {
             genero = 'Homem'  
             if (idade >= 0 && idade < 10) {
                 // crianca
-                img.setAttribute('src', 'foto-bimbo.png')
+                img.setAttribute('src', './imagens/criança.jpeg')
             } else if (idade >= 10 && idade < 21) {
                 //jovem
                 img.setAttribute('src', 'foto-ragazzo.png')
             } else if (idade >= 21 && idade < 55) {
                 //adulto
-                img.setAttribute('src', 'foto-uomo.png')
+                img.setAttribute('src', 'https://esbrasil.com.br/wp-content/uploads/2019/07/como-relaxar-o800x500.jpg')
             } else {
                 //idoso
                 img.setAttribute('src', 'foto-idoso.png')
